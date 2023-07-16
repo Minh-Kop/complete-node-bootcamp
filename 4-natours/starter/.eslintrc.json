@@ -23,6 +23,9 @@
             "error",
             { "argsIgnorePattern": "req|res|next|val" }
         ],
-        "arrow-body-style": "off"
+        "arrow-body-style": "off",
+        "parserOptions": {
+            "sourceType": "module"
+        }
     }
 }
